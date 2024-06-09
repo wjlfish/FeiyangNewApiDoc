@@ -68,7 +68,7 @@ GET `/v1/status/getTicket`
 
 除网络错误外，所有错误类型都是因为权限不足。如果你遇到了权限不足的报错，请检查权限是否完整。
 
-对于Bearer有关的错误（401），请查阅[前期准备](../getin/qian-qi-zhun-bei.md#accesstoken-xin-xi-chu-li)[-Access\_token 信息处理](../getin/qian-qi-zhun-bei.md#accesstoken-xin-xi-chu-li)
+对于Bearer有关的错误（401），请查阅[前期准备](../get\_started/prepare.md#accesstoken-xin-xi-chu-li)[-Access\_token 信息处理](../get\_started/prepare.md#accesstoken-xin-xi-chu-li)
 
 {% hint style="info" %}
 使用uid查询时，需要确保发起请求的用户就是uid拥有者 或 身份为管理员

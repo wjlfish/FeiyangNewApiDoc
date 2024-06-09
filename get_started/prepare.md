@@ -59,4 +59,4 @@ access\_token的有效期是一小时，在这一小时内，你可以发起50�
 }
 ```
 
-如果你遇到了上述第3种报错，说明该access\_token已经失效。你需要重新通过[接入接口](wei-xin-jie-ru-yu-jian-ce-zhu-ce.md)获取新的access\_token。
+如果你遇到了上述第3种报错，说明该access\_token已经失效。你需要重新通过[接入接口](wx\_login.md)获取新的access\_token。

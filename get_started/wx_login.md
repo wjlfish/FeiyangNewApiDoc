@@ -10,7 +10,7 @@
 当然，在用户被记录在数据库之前，我们仍需使用openid作为判断用户身份的依据
 {% endhint %}
 
-在全局获取access\_token的方法有两种，一种针对新用户注册，它的获取方式在[用户注册](../user/xin-yong-hu-zhu-ce.md)章节；另一种针对已注册的用户，本节将引导你获取这类用户的access\_token，如果你还不明白如何使用access\_token，请阅读上一节[前期准备](qian-qi-zhun-bei.md)
+在全局获取access\_token的方法有两种，一种针对新用户注册，它的获取方式在[用户注册](../user/register.md)章节；另一种针对已注册的用户，本节将引导你获取这类用户的access\_token，如果你还不明白如何使用access\_token，请阅读上一节[前期准备](prepare.md)
 
 ## 请求
 
