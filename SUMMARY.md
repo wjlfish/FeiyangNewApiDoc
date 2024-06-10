@@ -13,6 +13,12 @@
 * [验证码校验](user/verify.md)
 * [更改用户信息](user/setuser.md)
 
+## 管理系统 <a href="#admin" id="admin"></a>
+
+* [注册管理员](admin/reg.md)
+* [登入](admin/deng-ru.md)
+* [获取所有openid](admin/huo-qu-suo-you-openid.md)
+
 ## 工单系统 <a href="#ticket" id="ticket"></a>
 
 * [新增工单](ticket/add.md)
