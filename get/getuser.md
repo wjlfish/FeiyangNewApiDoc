@@ -132,31 +132,25 @@ GET `/v1/status/getUser`
 {% tab title="获取成功" %}
 ```json
 {
-  "request_type": "by_user_id_pending",
-  "data": [
-    {
-      "id": 1,
-      "user_id": 12322,
-      "machine_purchase_date": "2024-06-01",
-      "user_phone": "123456789",
-      "device_type": "笔记本",
-      "computer_brand": "华为Matebook",
-      "repair_description": "请帮我请个灰",
-      "repair_status": "Pending",
-      "repair_image_url": "https://example.com/image.jpg",
-      "fault_type": "清灰",
-      "qq_number": "123456",
-      "campus": "江安",
-      "assigned_technician_id": 12311,
-      "assigned_time": "2024-06-10 12:00:00",
-      "completion_time": null
-    },
-    //可能还有其他工单，所以这里json我写的是逗号
-  ],
-  "page": 2,
-  "limit": 10
+	"success": true,
+	"request_type": "all_users",
+	"data": [
+		{
+			"id": "8",
+			"openid": "o_o12e3fe231112",
+			"token_expiry": "2024-08-08 10:39:33",
+			"regtime": "",
+			"nickname": "cygq",
+			"avatar": "https://scumpic.wjlo.cc/avatars/66574b37c76c6_GGZc0i75Ttefe6d8a9862563e3fb012d6edcbd4bb63a.jpeg",
+			"campus": "江安",
+			"role": "admin",
+			"available": "1",
+			"email": "wjl@wjlo.cc",
+			"phone": "12341557789",
+			"status": "verified"
+		}
+	]
 }
-
 ```
 {% endtab %}
 
