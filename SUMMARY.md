@@ -36,5 +36,6 @@
 
 ## 获取信息（GET） <a href="#get" id="get"></a>
 
+* [获取技术员业绩](get/huo-qu-ji-shu-yuan-ye-ji.md)
 * [获取工单信息](get/getticket.md)
 * [获取用户信息](get/getuser.md)
