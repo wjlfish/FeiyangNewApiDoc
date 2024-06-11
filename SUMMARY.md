@@ -16,8 +16,8 @@
 ## 管理系统 <a href="#admin" id="admin"></a>
 
 * [注册管理员](admin/reg.md)
-* [登入](admin/deng-ru.md)
-* [获取所有openid](admin/huo-qu-suo-you-openid.md)
+* [登入](admin/login.md)
+* [获取所有openid](admin/get\_openids.md)
 
 ## 工单系统 <a href="#ticket" id="ticket"></a>
 
@@ -36,6 +36,6 @@
 
 ## 获取信息（GET） <a href="#get" id="get"></a>
 
-* [获取技术员业绩](get/huo-qu-ji-shu-yuan-ye-ji.md)
+* [获取技术员业绩](get/gettechworks.md)
 * [获取工单信息](get/getticket.md)
 * [获取用户信息](get/getuser.md)
