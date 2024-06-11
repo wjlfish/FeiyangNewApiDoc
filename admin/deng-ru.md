@@ -25,10 +25,11 @@
 
 **Response**
 
-| 参数名     | 类型      | 描述         |
-| ------- | ------- | ---------- |
-| success | boolean | 请求是否成功     |
-| message | string  | 返回的消息      |
-| user    | object  | 登录成功后的用户信息 |
+| 参数名           | 类型      | 描述            |
+| ------------- | ------- | ------------- |
+| success       | boolean | 请求是否成功        |
+| access\_token | string  | access\_token |
+| message       | string  | 返回的消息         |
+| user          | object  | 登录成功后的用户信息    |
 
-####
+#### 此接口返回的access\_token必然是管理员身份用户的
