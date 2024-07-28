@@ -6,11 +6,13 @@
 
 {% hint style="info" %}
 我们采用access\_token的形式控制访问，并以此作为用户访问我们其他服务的唯一令牌
-
-当然，在用户被记录在数据库之前，我们仍需使用openid作为判断用户身份的依据
 {% endhint %}
 
-在全局获取access\_token的方法有两种，一种针对新用户注册，它的获取方式在[用户注册](../user/register.md)章节；另一种针对已注册的用户，本节将引导你获取这类用户的access\_token，如果你还不明白如何使用access\_token，请阅读上一节[前期准备](prepare.md)
+本节将引导你获取用户的access\_token。
+
+如果你还不明白如何使用access\_token，请阅读上一节[前期准备](prepare.md)
+
+现阶段的access\_token将仅能由此接口获取
 
 ## 请求
 
@@ -26,9 +28,9 @@
 
 **Body**
 
-| 属性   | 类型     | 描述                                       | 必填 |
-| ---- | ------ | ---------------------------------------- | -- |
-| code | string | <p>在app.js中</p><p>调用wx.login后返回的code</p> | 是  |
+| 属性   | 类型     | 描述                     | 必填 |
+| ---- | ------ | ---------------------- | -- |
+| code | string | 前端调用wx.login()后返回的code | 是  |
 
 **Response**
 
@@ -57,6 +59,7 @@
 	"success": true,
 	"registered": false,
 	"openid": "xxx",
+	"access_token": "xxx",
 	"email": "",
 	"avatar": "",
 	"phone": "",
@@ -72,7 +75,7 @@
 	"success": false,
 	"error": {
 		"errcode": xxx,
-		"errmsg": "xxx"
+		"errmsg": "xxx" //这里的错误信息来自微信开发文档，可按照上方错误码及链接对照理解：https://developers.weixin.qq.com/miniprogram/dev/framework/usability/PublicErrno.html
 	},
 	"registered": false
 }

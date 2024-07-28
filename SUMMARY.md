@@ -12,6 +12,7 @@
 * [新用户注册](user/register.md)
 * [验证码校验](user/verify.md)
 * [更改用户信息](user/setuser.md)
+* [头像上传](user/tou-xiang-shang-chuan.md)
 
 ## 管理系统 <a href="#admin" id="admin"></a>
 
