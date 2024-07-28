@@ -28,7 +28,6 @@
 {% tabs %}
 {% tab title="上传成功" %}
 ```json
-//假如此处仅修改了用户昵称
 {
 	"success": true,
 	"data": "图片地址"
