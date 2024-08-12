@@ -4,6 +4,8 @@
 
 在申请验证码后，需要使用获取到的验证码进行校验。因为在申请验证码时已经给到了一个access\_token，所以此处就不再返回access\_token，这也是我们建议你再上个环节就存储该值的原因。
 
+此接口的鉴权已弃用，可以直接发起对应的POST请求实现验证
+
 ## &#x20;请求
 
 ## 验证码校验
@@ -12,10 +14,10 @@
 
 **Headers**
 
-| 属性            | 值                      |
-| ------------- | ---------------------- |
-| Content-Type  | `application/json`     |
-| Authorization | Bearer {access\_token} |
+| 属性                                                       | 值                          |
+| -------------------------------------------------------- | -------------------------- |
+| Content-Type                                             | `application/json`         |
+| ~~Authorization~~<mark style="color:red;">（鉴权已弃用）</mark> | ~~Bearer {access\_token}~~ |
 
 **Body**
 
