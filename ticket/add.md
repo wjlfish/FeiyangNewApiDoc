@@ -21,7 +21,6 @@
 
 | 属性             | 类型     | 描述       | 必填 |
 | -------------- | ------ | -------- | -- |
-| uid            | int    | 用户id     | 是  |
 | purchase\_date | date   | 机器购买时间   | 是  |
 | phone          | string | 用于联系的手机号 | 是  |
 | device\_type   | string | 设备类型     | 是  |

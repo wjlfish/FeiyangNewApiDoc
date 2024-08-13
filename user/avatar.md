@@ -23,6 +23,44 @@
 | -- | -------- | -- | -- |
 |    | formData |    | 是  |
 
+这里的上传方式可能不太便于理解，我将给出一个js示例：（假设点击某#uploadButton按钮）
+
+```javascript
+// 获取文件输入元素
+const fileInput = document.querySelector('#avatarInput');
+
+// 监听文件上传事件
+document.querySelector('#uploadButton').addEventListener('click', () => {
+    const file = fileInput.files[0];
+    if (file) {
+        const formData = new FormData();
+        formData.append('file', file);
+
+        // 调用上传接口
+        fetch(app-globalData.rootApiUrl+ "/v1/user/avatar", {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Authorization': 'Bearer ' + token,
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                console.log('上传成功:', data.data);
+            } else {
+                console.error('上传失败:', data.Data);
+            }
+        })
+        .catch(error => {
+            console.error('请求错误:', error);
+        });
+    } else {
+        console.error('请先选择文件');
+    }
+});
+```
+
 **Response**
 
 {% tabs %}

@@ -101,7 +101,7 @@ GET `/v1/status/getTicket`
       "assigned_time": "2024-06-10 12:00:00",
       "completion_time": null
     },
-    //可能还有其他工单，所以这里json我写的是逗号
+    //可能还有其他工单，所以这里json是逗号
   ],
   "page": 2,
   "limit": 10

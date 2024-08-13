@@ -23,6 +23,7 @@
 ## 工单系统 <a href="#ticket" id="ticket"></a>
 
 * [新增工单](ticket/add.md)
+* [修改工单](ticket/set.md)
 * [完成工单](ticket/complete.md)
 * [分配工单](ticket/assign.md)
 
@@ -34,6 +35,11 @@
 * [报名活动（大修）](event/regrepair.md)
 * [分配大修点位](event/assign.md)
 * [大修个人改时间](event/changetime.md)
+
+## 反馈系统 <a href="#feedback" id="feedback"></a>
+
+* [新增反馈](feedback/add.md)
+* [修改反馈](feedback/set.md)
 
 ## 获取信息（GET） <a href="#get" id="get"></a>
 
