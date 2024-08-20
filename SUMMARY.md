@@ -18,12 +18,14 @@
 * [验证码校验](user/verify.md)
 * [更改用户信息](user/setuser.md)
 * [头像上传](user/avatar.md)
+* [删除用户](user/delete.md)
 
 ## 管理系统 <a href="#admin" id="admin"></a>
 
 * [注册管理员](admin/reg.md)
 * [登入](admin/login.md)
 * [获取所有openid](admin/get\_openids.md)
+* [删除管理员](admin/delete.md)
 
 ## 工单系统 <a href="#ticket" id="ticket"></a>
 
@@ -31,6 +33,7 @@
 * [修改工单](ticket/set.md)
 * [完成工单](ticket/complete.md)
 * [分配工单](ticket/assign.md)
+* [删除工单](ticket/delete.md)
 
 ## 活动系统 <a href="#event" id="event"></a>
 
@@ -40,11 +43,13 @@
 * [报名活动（大修）](event/regrepair.md)
 * [分配大修点位](event/assign.md)
 * [大修个人改时间](event/changetime.md)
+* [删除活动](event/delete.md)
 
 ## 反馈系统 <a href="#feedback" id="feedback"></a>
 
 * [新增反馈](feedback/add.md)
 * [修改反馈](feedback/set.md)
+* [删除反馈](feedback/delete.md)
 
 ## 获取信息（GET） <a href="#get" id="get"></a>
 
