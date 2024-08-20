@@ -7,6 +7,10 @@
 * [前期准备](get\_started/prepare.md)
 * [微信接入与检测注册](get\_started/wx\_login.md)
 
+## 全局配置系统 <a href="#con-f" id="con-f"></a>
+
+* [修改全局配置](con-f/xiu-gai-quan-ju-pei-zhi.md)
+
 ## 用户系统 <a href="#user" id="user"></a>
 
 * [新用户注册](user/register.md)
@@ -43,6 +47,7 @@
 
 ## 获取信息（GET） <a href="#get" id="get"></a>
 
+* [获取全局配置](get/getconfig.md)
 * [获取技术员业绩](get/gettechworks.md)
 * [获取工单信息](get/getticket.md)
 * [获取用户信息](get/getuser.md)
