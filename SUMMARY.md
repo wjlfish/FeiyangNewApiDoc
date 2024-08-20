@@ -9,6 +9,7 @@
 
 ## 全局配置系统 <a href="#conf" id="conf"></a>
 
+* [获取全局配置](conf/get.md)
 * [修改全局配置](conf/set.md)
 
 ## 用户系统 <a href="#user" id="user"></a>
