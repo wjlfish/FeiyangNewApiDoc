@@ -7,9 +7,9 @@
 * [前期准备](get\_started/prepare.md)
 * [微信接入与检测注册](get\_started/wx\_login.md)
 
-## 全局配置系统 <a href="#con-f" id="con-f"></a>
+## 全局配置系统 <a href="#conf" id="conf"></a>
 
-* [修改全局配置](con-f/xiu-gai-quan-ju-pei-zhi.md)
+* [修改全局配置](conf/set.md)
 
 ## 用户系统 <a href="#user" id="user"></a>
 
