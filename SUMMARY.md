@@ -19,6 +19,7 @@
 * [更改用户信息](user/setuser.md)
 * [头像上传](user/avatar.md)
 * [删除用户](user/delete.md)
+* [迁移用户](user/migration.md)
 
 ## 管理系统 <a href="#admin" id="admin"></a>
 
