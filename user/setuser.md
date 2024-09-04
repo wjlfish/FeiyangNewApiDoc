@@ -9,8 +9,8 @@
 
 如果用户需要更改头像，同样也是调用这个接口，本接口支持接收图片地址
 
-{% hint style="info" %}
-暂不支持手机号换绑，所以别让用户填手机号进来哦！！！
+{% hint style="warning" %}
+本接口不支持 <mark style="color:yellow;">**手机号**</mark> 和  <mark style="color:green;">**邮件**</mark> 的更改，如需更改请浏览 [绑定邮箱](newemail.md) 和 [手机号换绑](phonechange.md)
 {% endhint %}
 
 ## &#x20;请求

@@ -15,11 +15,14 @@
 ## 用户系统 <a href="#user" id="user"></a>
 
 * [新用户注册](user/register.md)
-* [验证码校验](user/verify.md)
+* [验证码校验（新注册、迁移）](user/verify.md)
 * [更改用户信息](user/setuser.md)
 * [头像上传](user/avatar.md)
 * [删除用户](user/delete.md)
 * [迁移用户](user/migration.md)
+* [绑定邮箱](user/newemail.md)
+* [手机号换绑](user/phonechange.md)
+* [验证码校验（换绑）](user/vchangephone.md)
 
 ## 管理系统 <a href="#admin" id="admin"></a>
 
