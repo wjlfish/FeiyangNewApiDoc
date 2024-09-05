@@ -4,9 +4,13 @@
 
 此接口用于更改用户绑定的邮箱，因为邮箱的特殊性，必须通过激活邮件来确认绑定。因此以此接口来进行绑定请求的发起。
 
+{% hint style="info" %}
+此接口自小程序线上版本1.1.0起启用
+{% endhint %}
+
 ## &#x20;请求
 
-## 注册
+## 绑定邮箱
 
 <mark style="color:green;">`POST`</mark> `/v1/user/newemail`
 

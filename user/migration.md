@@ -10,7 +10,7 @@
 
 ## &#x20;请求
 
-## 验证码校验
+## 迁移
 
 <mark style="color:green;">`POST`</mark> `/v1/user/migration`
 

@@ -4,9 +4,13 @@
 
 此接口用于更改用户绑定的手机号，因为手机号的特殊性，必须发起验证码验证。因此以此接口来进行换绑请求的发起。
 
+{% hint style="info" %}
+此接口自小程序线上版本1.1.0起启用
+{% endhint %}
+
 ## &#x20;请求
 
-## 注册
+## 换绑手机
 
 <mark style="color:green;">`POST`</mark> `/v1/user/newphone`
 

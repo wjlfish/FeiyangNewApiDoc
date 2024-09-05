@@ -10,9 +10,11 @@
 
 本节将引导你获取用户的access\_token。
 
-如果你还不明白如何使用access\_token，请阅读上一节[前期准备](prepare.md)
+如果你还不明白如何使用access\_token，请阅读上一节 [前期准备](prepare.md#gnvxc)[：接口身份校验](prepare.md#gnvxc)
 
-现阶段的access\_token将仅能由此接口获取
+此接口是获取access\_token的唯二途径，在绝大部分情况下，你都需要通过访问这个接口来获取一个新的access\_token。
+
+在使用本接口前，请确保你已经通过微信小程序能力中的wx.login()接口获取到了code
 
 ## 请求
 
@@ -28,9 +30,7 @@
 
 **Body**
 
-| 属性   | 类型     | 描述                     | 必填 |
-| ---- | ------ | ---------------------- | -- |
-| code | string | 前端调用wx.login()后返回的code | 是  |
+<table><thead><tr><th>属性</th><th>类型</th><th width="277">描述</th><th>必填</th></tr></thead><tbody><tr><td>code</td><td>string</td><td>前端调用wx.login()后返回的code</td><td>是</td></tr></tbody></table>
 
 **Response**
 

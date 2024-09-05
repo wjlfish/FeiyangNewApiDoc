@@ -4,9 +4,13 @@
 
 换绑时需要以此接口来进行验证
 
+{% hint style="info" %}
+此接口自小程序线上版本1.1.0起启用
+{% endhint %}
+
 ## &#x20;请求
 
-## 验证码校验
+## 验证码校验（换绑）
 
 <mark style="color:green;">`POST`</mark> `/v1/user/phonechange_verify`
 
