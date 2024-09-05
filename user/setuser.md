@@ -10,7 +10,7 @@
 如果用户需要更改头像，同样也是调用这个接口，本接口支持接收图片地址
 
 {% hint style="warning" %}
-本接口不支持 <mark style="color:yellow;">**手机号**</mark> 和  <mark style="color:green;">**邮件**</mark> 的更改，如需更改请浏览 [绑定邮箱](newemail.md) 和 [手机号换绑](phonechange.md)
+自小程序线上版本1.1.0起，本接口不再支持 <mark style="color:yellow;">**手机号**</mark> 和  <mark style="color:green;">**邮件**</mark> 的更改，如需更改请浏览 [绑定邮箱](newemail.md) 和 [手机号换绑](phonechange.md)
 {% endhint %}
 
 ## &#x20;请求
@@ -28,13 +28,14 @@
 
 **Body**
 
-| 属性       | 类型     | 描述     | 必填 |
-| -------- | ------ | ------ | -- |
-| email    | string | 用户邮箱   |    |
-| nickname | string | 用户昵称   |    |
-| avatar   | string | 用户头像地址 |    |
-| campus   | string | 用户所在校区 |    |
-| role     | string | 用户身份   |    |
+| 属性        | 类型     | 描述     | 必填 |
+| --------- | ------ | ------ | -- |
+| email     | string | 用户邮箱   |    |
+| nickname  | string | 用户昵称   |    |
+| avatar    | string | 用户头像地址 |    |
+| campus    | string | 用户所在校区 |    |
+| role      | string | 用户身份   |    |
+| available | bool   | 技工接单状态 |    |
 
 **Response**
 
