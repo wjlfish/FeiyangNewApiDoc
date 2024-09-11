@@ -10,13 +10,19 @@
 
 2.技术员：修改被分配到此技术员的工单信息。
 
+{% hint style="info" %}
 对于某个已被分配维修的工单，此接口可以修改已分配的技术员，并重新发送对应提醒
 
 对于某个未被分配，且需要强制分配到某技术员的工单，此接口也可以实现强制分配
+{% endhint %}
 
-传入的order\_id和order\_hash必须对应同一个工单
+{% hint style="warning" %}
+传入的 `order_id`和`order_hash`必须对应同一个工单
+{% endhint %}
 
-在未传入tid时，该值将被默认为发起请求的用户id。所以在管理端调用此接口时，请务必注意携带tid
+{% hint style="danger" %}
+未传入tid时，该值将被默认为发起请求的用户id。在管理端调用此接口时，请务必注意<mark style="color:red;">携带tid</mark>
+{% endhint %}
 
 ## &#x20;请求
 
