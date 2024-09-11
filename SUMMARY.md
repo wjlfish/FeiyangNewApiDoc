@@ -34,6 +34,7 @@
 ## 工单系统 <a href="#ticket" id="ticket"></a>
 
 * [新增工单](ticket/add.md)
+* [转移/强分配工单](ticket/give.md)
 * [修改工单](ticket/set.md)
 * [完成工单](ticket/complete.md)
 * [分配工单](ticket/assign.md)
@@ -59,5 +60,6 @@
 
 * [获取全局配置](get/getconfig.md)
 * [获取技术员业绩](get/gettechworks.md)
+* [获取活动信息](get/getevent.md)
 * [获取工单信息](get/getticket.md)
 * [获取用户信息](get/getuser.md)
