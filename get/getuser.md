@@ -122,7 +122,7 @@ GET `/v1/status/getUser`
 
 除网络错误外，所有错误类型都是因为权限不足。如果你遇到了权限不足的报错，请检查权限是否完整。
 
-对于Bearer有关的错误（401），请查阅[前期准备](../get\_started/prepare.md#accesstoken-xin-xi-chu-li)[-Access\_token 信息处理](../get\_started/prepare.md#accesstoken-xin-xi-chu-li)
+对于Bearer有关的错误（401），请查阅[前期准备](../get_started/prepare.md#accesstoken-xin-xi-chu-li)[-Access\_token 信息处理](../get_started/prepare.md#accesstoken-xin-xi-chu-li)
 
 {% hint style="info" %}
 获取全部用户时，需要确保发起请求的用户身份为管理员
@@ -136,18 +136,25 @@ GET `/v1/status/getUser`
 	"request_type": "all_users",
 	"data": [
 		{
-			"id": "8",
-			"openid": "o_o12e3fe231112",
-			"token_expiry": "2024-08-08 10:39:33",
-			"regtime": "",
-			"nickname": "cygq",
-			"avatar": "https://scumpic.wjlo.cc/avatars/66574b37c76c6_GGZc0i75Ttefe6d8a9862563e3fb012d6edcbd4bb63a.jpeg",
-			"campus": "江安",
-			"role": "admin",
-			"available": "1",
-			"email": "wjl@wjlo.cc",
-			"phone": "12341557789",
-			"status": "verified"
+			"id": "100000",
+                        "openid": "system",
+                        "token_expiry": "2024-12-25 22:50:38",
+                        "regtime": "2024-05-01 00:00:00",
+                        "nickname": "系统",
+                        "realname": "系统",
+                        "avatar": "https://qncdn.feiyang.ac.cn/avatar/446f09e0-1020-4178-9592-ede0fba3ac58.jpg",
+                        "campus": "虚空",
+                        "role": "admin",
+                        "last_time": null,
+                        "available": "5",
+                        "wants": "c",
+                        "email": "noreply@feiyang.ac.cn",
+                        "temp_email": null,
+                        "email_status": "verified",
+                        "phone": null,
+                        "status": "verified",
+                        "immed": "1"
+                  	"status": "verified"
 		}
 	]
 }
@@ -167,21 +174,7 @@ GET `/v1/status/getUser`
 
 #### 返回数据说明
 
-| 属性                | 类型     | 描述        |
-| ----------------- | ------ | --------- |
-| success           | bool   | 请求是否成功    |
-| requesttype       | string | 请求类型      |
-| data              | array  | 用户数据数组    |
-| data\[].id        | int    | 用户 ID     |
-| data\[].name      | string | 用户名       |
-| data\[].openid    | string | 用户 OpenID |
-| data\[].phone     | string | 用户手机号     |
-| data\[].email     | string | 用户邮箱      |
-| data\[].campus    | string | 用户校区      |
-| data\[].role      | string | 用户角色      |
-| data\[].available | bool   | 用户可用状态    |
-| page              | int    | 当前页码      |
-| limit             | int    | 每页返回的数据条数 |
+<table><thead><tr><th>属性</th><th width="248">类型</th><th>描述</th></tr></thead><tbody><tr><td>success</td><td>bool</td><td>请求是否成功</td></tr><tr><td>requesttype</td><td>string</td><td>请求类型</td></tr><tr><td>data</td><td>array</td><td>用户数据数组</td></tr><tr><td>data[].id</td><td>int</td><td>用户 ID</td></tr><tr><td>data[].name</td><td>string</td><td>用户名</td></tr><tr><td>data[].openid</td><td>string</td><td>用户 OpenID</td></tr><tr><td>data[].phone</td><td>string</td><td>用户手机号</td></tr><tr><td>data[].email</td><td>string</td><td>用户邮箱</td></tr><tr><td>data[].campus</td><td>string</td><td>用户校区</td></tr><tr><td>data[].role</td><td>string</td><td>用户角色</td></tr><tr><td>data[].available</td><td>bool</td><td>用户可用状态</td></tr><tr><td>page</td><td>int</td><td>当前页码</td></tr><tr><td>limit</td><td>int</td><td>每页返回的数据条数</td></tr></tbody></table>
 
 ####
 
